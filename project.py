@@ -338,7 +338,7 @@ def populateNeo4j(session,
 --------------------- '''
 def main():
     
-    #jsonDir = 'E:\\Downloads\\OLEG\PythonWorkspace\\Neo4jProject\\homework-2-conehoo\\data\json\\'
+    #jsonDir = 'E:\\Neo4jProject\\data\json\\'
     jsonDir = os.path.join(sys.argv[1], "json")
     uri = 'bolt://localhost:7687'
     dbName = 'neo4j'
